@@ -83,6 +83,7 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
+    background-repeat: no-repeat;
     min-height: 500px;
     display: flex;
     align-items: center;
@@ -345,6 +346,8 @@ a {
     .hero {
         padding: 50px 8%;
         min-height: 400px;
+        background-position: right center;
+        background-size: cover;
     }
 
     .hero h1 {
@@ -363,6 +366,8 @@ a {
     .hero {
         padding: 40px 5%;
         min-height: 350px;
+        background-position: right center;
+        background-size: cover;
     }
 
     .hero h1 {
