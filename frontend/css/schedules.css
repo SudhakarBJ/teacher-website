@@ -1,0 +1,152 @@
+/* =========================
+   HERO SECTION
+========================= */
+
+.schedule-hero {
+    background-color: #e8f0fe;
+    text-align: center; 
+    padding: 80px 10%;
+}
+
+.schedule-hero h1 {
+    font-size: 42px;
+    margin-bottom:15px;
+}
+
+.schedule-hero p {
+    font-size: 18px;
+}
+
+
+
+/* =========================
+   SCHEDULE SECTIONS
+========================= */
+
+.schedule-section,
+.weekend-section {
+    text-align: center;
+}
+
+.schedule-container {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    margin-top: 30px;
+
+    flex-wrap: wrap;
+}
+
+.schedule-card {
+
+    width: 320px;
+
+    background-color: white;
+
+    padding: 25px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+}
+
+.schedule-card h3 {
+    color: blue;
+    margin-bottom: 15px;
+}
+
+
+
+/* =========================
+   INFORMATION SECTION
+========================= */
+
+.info-section {
+
+    background-color: white;
+
+    text-align: center;
+}
+
+.info-box {
+
+    max-width: 700px;
+
+    margin: 30px auto;
+
+    text-align: left;
+
+    background-color: #f9f9f9;
+
+    padding: 30px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+}
+
+.info-box ul {
+    padding-left: 20px;
+}
+
+.info-box li {
+    margin-bottom: 10px;
+}
+
+
+
+/* =========================
+   ENROLL SECTION
+========================= */
+
+.enroll-section {
+
+    text-align: center;
+}
+
+.enroll-section button {
+
+    margin-top: 20px;
+
+    padding: 12px 24px;
+
+    border: none;
+
+    background-color: blue;
+
+    color: white;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+}
+
+.enroll-section button:hover {
+    background-color: darkblue;
+}
+
+
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 768px) {
+
+    .schedule-hero h1 {
+        font-size: 32px;
+    }
+
+    .schedule-card {
+        width: 100%;
+    }
+
+    .info-box {
+        text-align: center;
+    }
+
+}

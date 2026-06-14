@@ -1,0 +1,177 @@
+/* =========================
+   HERO SECTION
+========================= */
+
+.stories-hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #f5f7fa;
+}
+
+.stories-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.stories-hero p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.7;
+    color: #555;
+}
+
+
+
+/* =========================
+   STORIES SECTION
+========================= */
+
+.stories-section {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+
+/* =========================
+   STORY CARD
+========================= */
+
+.story-card {
+    display: flex;
+    gap: 30px;
+
+    background-color: white;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    padding: 25px;
+}
+
+
+
+/* =========================
+   VIDEO
+========================= */
+
+.story-video {
+    width: 420px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+
+
+/* =========================
+   DETAILS
+========================= */
+
+.story-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.story-details h2 {
+    margin-bottom: 8px;
+}
+
+.story-details h4 {
+    color: #666;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.achievement {
+    display: inline-block;
+
+    width: fit-content;
+
+    background-color: #e8f5e9;
+
+    padding: 8px 12px;
+
+    border-radius: 6px;
+
+    margin-bottom: 15px;
+
+    font-size: 0.9rem;
+
+    font-weight: bold;
+}
+
+.story-details p {
+    line-height: 1.8;
+    color: #444;
+}
+
+
+
+/* =========================
+   CTA SECTION
+========================= */
+
+.join-section {
+    text-align: center;
+
+    padding: 80px 20px;
+
+    background-color: #f5f7fa;
+}
+
+.join-section h2 {
+    margin-bottom: 15px;
+}
+
+.join-section p {
+    margin-bottom: 25px;
+}
+
+.join-section button {
+    padding: 12px 24px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    font-size: 1rem;
+}
+
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+
+    .story-card {
+        flex-direction: column;
+    }
+
+    .story-video {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .stories-hero h1 {
+        font-size: 2rem;
+    }
+
+    .story-card {
+        padding: 15px;
+    }
+}

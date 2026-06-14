@@ -1,0 +1,17 @@
+# Environment Variables
+.env
+
+# Go Build Output
+bin/
+*.exe
+
+# IDE Files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
